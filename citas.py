@@ -17,7 +17,7 @@ def cancelar_cita(paciente):
 def buscar_cita(paciente):
     """Busca y muestra todas las citas programadas para un paciente."""
     citas_encontradas = [c for c in citas_programadas if c["paciente"] == paciente]
-    
+
     if citas_encontradas:
         print(f"\nCitas encontradas para {paciente}:")
         for cita in citas_encontradas:
