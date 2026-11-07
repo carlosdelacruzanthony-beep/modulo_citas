@@ -1,7 +1,4 @@
-
-import os # Importación no utilizada (Error F401)
-
- citas_programadas = [] # Espacio extra al inicio (Error E111)
+citas_programadas = []
 
 def agendar_cita(paciente, fecha, hora):
     nueva_cita = {"paciente": paciente, "fecha": fecha, "hora": hora}
