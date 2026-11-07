@@ -24,5 +24,3 @@ def buscar_cita(paciente):
             print(f"- Fecha: {cita['fecha']} a las {cita['hora']}")
     else:
         print(f"\nNo se encontraron citas para {paciente}.")
-
-        

@@ -7,5 +7,3 @@ class Cliente:  # pylint: disable=too-few-public-methods
         self.nombre = nombre
         self.telefono = telefono
         self.correo = correo
-
-        
